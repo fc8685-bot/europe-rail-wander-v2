@@ -3,7 +3,7 @@ import Link from "next/link";
 import { HeroVideoBackground } from "@/components/HeroVideoBackground";
 import { InteractiveMap } from "@/components/InteractiveMap";
 
-const COUNTRIES  [
+const COUNTRIES = [
   { name: "法國", code: "FR" },
   { name: "奧地利", code: "AT" },
   { name: "德國", code: "DE" },
