@@ -3,7 +3,7 @@ import Link from "next/link";
 import { HeroVideoBackground } from "@/components/HeroVideoBackground";
 import { InteractiveMap } from "@/components/InteractiveMap";
 
-const COUNTRIES = [
+const COUNTRIES  [
   { name: "法國", code: "FR" },
   { name: "奧地利", code: "AT" },
   { name: "德國", code: "DE" },
@@ -35,39 +35,39 @@ const CITIES = [
     name: "波爾多",
     country: "法國",
     tag: "TGV · 加龍河畔",
-    image: "/images/043.JPG",
+    image: "/images/043.jpg",
     href: "/cities/bordeaux",
   },
   {
     name: "維也納",
     country: "奧地利",
     tag: "ÖBB · 皇家鐵路",
-    image: "/images/044.JPG",
+    image: "/images/044.jpg",
     href: "/routes/vienna",
   },
   {
     name: "漢堡",
     country: "德國",
     tag: "ICE · 港口城市",
-    image: "/images/045.JPG",
+    image: "/images/045.jpg",
     href: "/cities/hamburg",
   },
   {
     name: "愛丁堡",
     country: "蘇格蘭",
     tag: "城堡 · 高地入口",
-    image: "/images/046.JPG",
+    image: "/images/046.jpg",
     href: "/cities/edinburgh",
   },
 ] as const;
 
 const GALLERY = [
-  "/images/047.JPG",
-  "/images/048.JPG",
-  "/images/049.JPG",
-  "/images/050.JPG",
-  "/images/051.JPG",
-  "/images/052.JPG",
+  "/images/047.jpg",
+  "/images/048.jpg",
+  "/images/049.jpg",
+  "/images/050.jpg",
+  "/images/051.jpg",
+  "/images/052.jpg",
 ] as const;
 
 /** Bordeaux → Dublin 這趟行程的實際統計 */

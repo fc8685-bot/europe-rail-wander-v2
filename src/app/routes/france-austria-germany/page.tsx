@@ -20,7 +20,7 @@ const CITIES = [
       { title: "很適合慢慢生活", text: "電車系統方便、河岸步道舒服，咖啡廳與甜點店很多。法國人會在加龍河旁散步、喝酒、曬太陽，整體氣氛比巴黎悠閒很多。" },
     ],
     tag: "TGV · 葡萄酒產區",
-    image: "/images/005.JPG",
+    image: "/images/005.jpg",
   },
   {
     name: "巴黎",
@@ -32,7 +32,7 @@ const CITIES = [
       { title: "咖啡館與日常生活文化", text: "巴黎人很愛坐露天咖啡座，一杯咖啡坐很久。比起趕行程，巴黎更適合慢慢逛街、看建築、吃甜點與觀察城市生活。" },
     ],
     tag: "ICE · TGV · Eurostar",
-    image: "/images/006.JPG",
+    image: "/images/006.jpg",
   },
   {
     name: "慕尼黑",
@@ -44,7 +44,7 @@ const CITIES = [
       { title: "很適合當南德旅行基地", text: "從慕尼黑很容易前往新天鵝堡、阿爾卑斯山與奧地利，火車交通方便，城市本身也比柏林乾淨整齊很多。" },
     ],
     tag: "ICE · DB · 阿爾卑斯門戶",
-    image: "/images/007.JPG",
+    image: "/images/007.jpg",
   },
   {
     name: "維也納",
@@ -78,33 +78,33 @@ const SCENERY = [
   {
     title: "加龍河畔",
     description: "波爾多舊城區沿河漫步，黃昏時分石灰岩建築染上金色，是路線啟程前的完美序曲。",
-    image: "/images/014.JPG",
+    image: "/images/014.jpg",
   },
   {
     title: "萊茵河谷",
     description: "ICE 列車從法德邊境切入萊茵河谷，葡萄園梯田與古堡點綴兩岸，是全歐洲最美的鐵路景觀之一。",
-    image: "/images/015.JPG",
+    image: "/images/015.jpg",
   },
   {
     title: "巴伐利亞丘陵",
     description: "進入德國南部後，窗外從平原轉為緩丘，針葉林與農莊交錯，遠方已可見阿爾卑斯山輪廓。",
-    image: "/images/016.JPG",
+    image: "/images/016.jpg",
   },
   {
     title: "薩爾茨堡近郊",
     description: "Intercity 越過邊境後短暫停靠薩爾茨堡，這座莫扎特故鄉在陽光下格外明媚。",
-    image: "/images/017.JPG",
+    image: "/images/017.jpg",
   },
 ] as const;
 
 const GALLERY = [
-  "/images/018.JPG",
-  "/images/019.JPG",
-  "/images/020.JPG",
-  "/images/021.JPG",
-  "/images/022.JPG",
-  "/images/023.JPG",
-  "/images/025.JPG",
+  "/images/018.jpg",
+  "/images/019.jpg",
+  "/images/020.jpg",
+  "/images/021.jpg",
+  "/images/022.jpg",
+  "/images/023.jpg",
+  "/images/025.jpg",
 ] as const;
 
 export default function FranceAustriaGermanyPage() {
@@ -233,7 +233,7 @@ export default function FranceAustriaGermanyPage() {
                   arr={seg.arr}
                   arrStation={seg.arrStation}
                   duration={seg.duration}
-                  imageSrc="/images/009.JPG"
+                  imageSrc="/images/009.jpg"
                 />
               ) : i === 2 ? (
                 <TrainCardWithVideo
@@ -244,7 +244,7 @@ export default function FranceAustriaGermanyPage() {
                   arr={seg.arr}
                   arrStation={seg.arrStation}
                   duration={seg.duration}
-                  imageSrc="/images/010.JPG"
+                  imageSrc="/images/010.jpg"
                 />
               ) : i === 3 ? (
                 <TrainCardWithVideo
@@ -255,7 +255,7 @@ export default function FranceAustriaGermanyPage() {
                   arr={seg.arr}
                   arrStation={seg.arrStation}
                   duration={seg.duration}
-                  imageSrc="/images/011.JPG"
+                  imageSrc="/images/011.jpg"
                 />
               ) : i === 5 ? (
                 <TrainCardWithVideo
@@ -266,7 +266,7 @@ export default function FranceAustriaGermanyPage() {
                   arr={seg.arr}
                   arrStation={seg.arrStation}
                   duration={seg.duration}
-                  imageSrc="/images/012.JPG"
+                  imageSrc="/images/012.jpg"
                 />
               ) : i === 7 ? (
                 <TrainCardWithVideo
@@ -277,7 +277,7 @@ export default function FranceAustriaGermanyPage() {
                   arr={seg.arr}
                   arrStation={seg.arrStation}
                   duration={seg.duration}
-                  imageSrc="/images/013.JPG"
+                  imageSrc="/images/013.jpg"
                 />
               ) : (
                 <div
