@@ -201,7 +201,7 @@ export default function Home() {
               </h2>
             </div>
             <p className="max-w-md text-sm leading-relaxed text-zinc-500">
-              三條可混搭的骨架行程，可依季節與票種延伸。點選城市即可在腦中排進你的時刻表。
+              兩條可混搭的骨架行程，可依季節與票種延伸。點選城市即可在腦中排進你的時刻表。
             </p>
           </div>
           <div className="mt-14 grid gap-6 md:grid-cols-3">
